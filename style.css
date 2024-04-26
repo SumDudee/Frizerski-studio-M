@@ -871,7 +871,11 @@ footer {
     }
 
     .infoSize{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+    
+    .infotext{
+        font-size: 1rem;
     }
 
 }
