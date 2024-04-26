@@ -844,6 +844,15 @@ footer {
         height: 100px;
     }
 
+        #vlasnica{
+        font-size: 1.1rem;
+    }
+
+    .infoImg{
+        width: 100px;
+        height: 150px;
+    }
+
 }
 
 @media (max-width: 646px){
