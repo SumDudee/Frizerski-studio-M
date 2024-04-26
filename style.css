@@ -454,6 +454,7 @@ footer {
 }
 
 .infoHL{
+    font-size: 1rem;
     padding-bottom: 5px;
     font-weight: bold;
 }
