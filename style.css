@@ -454,13 +454,11 @@ footer {
 }
 
 .infoHL{
-    font-size: 1.2rem;
     padding-bottom: 5px;
     font-weight: bold;
 }
 
 .infoList{
-    fonz-size:0.8rem;
     list-style: square;
 }
 
@@ -896,6 +894,17 @@ footer {
     
     .infotext{
         font-size: 0.8rem;
+    }
+
+    .infoList{
+        font-size: 0.8rem;
+        list-style: square;
+    }
+
+    .infoHL{
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        font-weight: bold;
     }
 
 }
