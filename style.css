@@ -836,7 +836,10 @@ footer {
         height: 450px;
     }
 
-
+        .labelI{
+        font-size: 1.1rem;
+    }
+    
 }
 
 @media (max-width: 646px){
