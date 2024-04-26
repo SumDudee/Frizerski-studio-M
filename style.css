@@ -839,7 +839,11 @@ footer {
         .labelI{
         font-size: 1.1rem;
     }
-    
+
+        .textP{
+        height: 50%;
+    }
+
 }
 
 @media (max-width: 646px){
