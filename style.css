@@ -932,7 +932,7 @@ footer {
 
 @media (max-width: 456px){
     .buttonstyle{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #footertext{
@@ -961,7 +961,7 @@ footer {
 
 @media (max-width: 400px){
     .buttonstyle{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #footertext{
@@ -978,7 +978,7 @@ footer {
 @media (max-width: 376px){
 
     #footertext{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .headertext{
