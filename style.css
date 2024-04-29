@@ -864,9 +864,12 @@ footer {
         border-radius: 30px;
     }
 
+    .off-screen-menu{
+        font-size: 2.3rem;
+    }
+    
     .buttonstyle{
-        font-size: 23px;
-        
+        font-size: 23px; 
     }
 
     #footertext{
