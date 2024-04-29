@@ -707,7 +707,7 @@ footer {
     .ham-menu span {
         height: 5px;
         width: 100%;
-        background-color: #BFA53D;
+        background-color: red;
         border-radius: 25px;
         position: absolute;
         left: 50%;
