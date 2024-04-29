@@ -256,12 +256,12 @@ nav {
 }
 
 .buttons{
+    text-align: center;
     padding-bottom: 4%;
     margin-top: 1%;
 }
 
 .buttonstyle{
-    margin-left: 31%;
     font-size: 30px;
     border-radius: 25px;
     padding: 10px;
@@ -573,7 +573,6 @@ footer {
     }
 
     .buttonstyle{
-        margin-left: 28%;
         font-size: 30px;
     }
 
@@ -658,7 +657,6 @@ footer {
     }
 
     .buttonstyle{
-        margin-left: 28%;
         font-size: 30px;
     }
 
@@ -752,7 +750,6 @@ footer {
     }
 
     .buttonstyle{
-        margin-left: 24%;
         font-size: 30px;
         border-radius: 25px;
         padding: 10px;
@@ -763,7 +760,6 @@ footer {
 
 @media (max-width: 1070px){
     .buttonstyle{
-        margin-left: 24%;
         font-size: 25px;
         border-radius: 25px;
         padding: 10px;
@@ -798,7 +794,6 @@ footer {
 
 @media (max-width: 858px){
     .buttonstyle{
-        margin-left: 20%;
         font-size: 25px;
         border-radius: 25px;
         padding: 10px;
@@ -828,7 +823,6 @@ footer {
 
 
     .buttonstyle{
-        margin-left: 20%;
         font-size: 23px;
         border-radius: 25px;
         padding: 10px;
@@ -871,7 +865,6 @@ footer {
     }
 
     .buttonstyle{
-        margin-left: 20%;
         font-size: 23px;
         
     }
@@ -918,7 +911,7 @@ footer {
 
 @media (max-width: 566px){
     .buttonstyle{
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .headertext{
@@ -939,7 +932,7 @@ footer {
 
 @media (max-width: 456px){
     .buttonstyle{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #footertext{
@@ -956,17 +949,15 @@ footer {
         font-size: 0.8rem;
     }
 
-}
-
-@media (max-width: 456px){
-    .buttonstyle{
-        font-size: 12px;
+        .buttonstyle{
+        font-size: 14px;
     }
 
     #footertext{
         font-size: 10px;
     }
 }
+
 
 @media (max-width: 400px){
     .buttonstyle{
@@ -985,9 +976,6 @@ footer {
 
 
 @media (max-width: 376px){
-    .buttonstyle{
-        font-size: 12px;
-    }
 
     #footertext{
         font-size: 8px;
