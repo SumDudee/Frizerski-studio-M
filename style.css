@@ -176,6 +176,7 @@ nav {
     width: 1600px;
     display: flex;
     overflow: hidden;
+    overflow-x: scroll;
     scroll-behavior: smooth;
     border-radius: 200px;
 }
