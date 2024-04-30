@@ -380,6 +380,16 @@ footer {
     transition: .3s;
 }
 
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+.formM i{
+    padding-right: 5px;
+}
+
 .spacer{
     margin-bottom: 2%;
 }
