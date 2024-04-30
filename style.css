@@ -414,6 +414,7 @@ label{
     grid-template-rows: 20% auto auto;
     box-sizing: border-box;
     gap: 5px;
+    padding-bottom: 20%;
 }
 
 .infoData{
