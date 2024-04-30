@@ -11,18 +11,14 @@ body{
 .header{
     width: 100%;
     background-color: white;
-
     display: flex;
     align-items: center;
     justify-content: left;
     position: sticky;
-    position: fixed;
+    top: 0;
     z-index: 9;
-
     box-shadow: 0px 4px 30px;   
-
 }
-
 
 .off-screen-menu {
     background-color:  rgb(34, 37, 49);
@@ -66,7 +62,6 @@ nav {
     display: none;
 }
 
-
 .ham-menu {
     height: 50px;
     width: 40px;
@@ -106,7 +101,6 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-
 .picheader{
     margin-left: 8%;
     margin-top: 3%;
@@ -114,7 +108,6 @@ nav {
     cursor: pointer;
     
 }
-
 
 .headertext{
     margin-left: 2%;
@@ -154,7 +147,6 @@ nav {
     font-size: 22px;
 }
 
-
 .eng{
     text-decoration: none;
     color: black;
@@ -183,10 +175,9 @@ nav {
     padding-top: 20px;
     width: 1600px;
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
     border-radius: 200px;
-    
 }
 
 .gallery div{
@@ -198,7 +189,6 @@ nav {
     flex: none;
 }
 
-/*width be width of img instead of width of gallery*/
 .gallery div img{
     width: 380px;
 }
@@ -218,7 +208,6 @@ nav {
     cursor: pointer;
     margin: 40px;
 }
-
 
 .gallery .popup-img{
     position: fixed;
@@ -251,8 +240,6 @@ nav {
     cursor: auto;
 }
 
-
-/*width aint being width*/
 .child-img{
     width: 406px;
     height: 406px;
@@ -270,15 +257,15 @@ nav {
     border-radius: 25px;
     padding: 10px;
     font-family: Lucida Handwriting, cursive;
-    
+    padding-right: 20px;
 }
 
 .buttonstyle:hover{
     background-color: #BFA53D;
     color: white;
     cursor: pointer;
+    transition: .3s;
 }
-
 
 footer {
     background-color: #111;
@@ -293,7 +280,6 @@ footer {
     margin: 30px 0;
 }
 
-
 .footerBottom {
     background-color: black;
     padding: 20px;
@@ -304,7 +290,6 @@ footer {
     color: white;
     font-size: 1.2rem;
 }
-
 
 .desinger {
     opacity: 0.7;
@@ -321,15 +306,14 @@ footer {
 .containerM{
     width: auto;
     min-height: 100svh;
-
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-
     display:grid;
     grid-template-columns: repeat(7,14.29%);
     grid-template-rows: 30% auto auto;
     box-sizing: border-box;
     gap: 5px;
+    padding-bottom: 20%;
 }
 
 .mailContainer{
@@ -393,6 +377,7 @@ footer {
     cursor: pointer;
     background-color: #BFA53D;
     color: white;
+    transition: .3s;
 }
 
 .spacer{
@@ -407,16 +392,13 @@ footer {
 .infoP:hover{
     transition: 0.4;
     color: #BFA53D;
-
 }
 
 .containerInfo{
     width: auto;
     min-height: 100svh;
-
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-
     display:grid;
     grid-template-columns: 10% repeat(4,14.29%) auto 14.29%;
     grid-template-rows: 20% auto auto;
@@ -426,7 +408,6 @@ footer {
 
 .infoData{
     text-align: justify;
-
     grid-area: 2 / 2 / 3 / 6;
 }
 
@@ -435,12 +416,10 @@ footer {
     height: 400px;
     box-shadow: 0px 30px;
     border-radius: 20px;
-
 }
 
 .imgPos{
     padding-left: 10%;
-
     grid-area: 2 / 6 / 3 / 7;
 }
 
@@ -472,7 +451,6 @@ footer {
     .gallery .popup-img img{
         width: 450px;
         height: 500px;
-
     }
     
     .gallery .popup-img span{
@@ -505,14 +483,11 @@ footer {
     .gallery .popup-img img{
         width: 300px;
         height: 400px;
-
     }
     
     .gallery .popup-img span{
         top: 3%; right: 10px;
     }
-
-
 }
 
 @media (max-width: 1880px){
@@ -524,7 +499,6 @@ footer {
     .footerDiz{
         margin-left: 30%;
     }
-
 
     .gallery{
         width: 1200px;
@@ -541,10 +515,6 @@ footer {
     #butoonL{
         margin-left: 20%;
     }
-
-
-
-
 }
 
 @media (max-width: 1560px){
@@ -555,7 +525,6 @@ footer {
     .imgPos{
         padding-left: 10%;
         padding-top: 10%;
-    
         grid-area: 2 / 5 / 3 / 7;
     }
 
@@ -563,7 +532,6 @@ footer {
         grid-template-columns: 10% repeat(4,14.29%) auto 14.29%;
         grid-template-rows: 15% auto auto auto;
     }
-
 }
 
 @media (max-width: 1400px){
@@ -601,7 +569,6 @@ footer {
     .containerM{
         width: 100%;
         min-height: 100svh;
-        
         grid-template-columns: repeat(7,14.29%);
         grid-template-rows: 15% auto auto auto;
     }
@@ -618,7 +585,6 @@ footer {
         width: 85%;
         height: 30px;
     }
-    
     
     .buttonP{
         width: 85%;
@@ -689,13 +655,11 @@ footer {
         right: 0;
     }
     
-    
     nav {
         margin-left: auto;
         padding: 1rem;
         display: flex;
     }
-    
     
     .ham-menu {
         height: 50px;
@@ -736,7 +700,6 @@ footer {
         transform: translate(-50%, -50%) rotate(-45deg);
     }
 
-    
     .headertext{
         font-size: 15px;
         margin-left: 20px;
@@ -758,7 +721,6 @@ footer {
         border-radius: 25px;
         padding: 10px;
         font-family: Lucida Handwriting, cursive;
-        
     }
 }
 
@@ -768,7 +730,6 @@ footer {
         border-radius: 25px;
         padding: 10px;
         font-family: Lucida Handwriting, cursive;
-        
     }
 
     .infoData{
@@ -777,14 +738,12 @@ footer {
 
     .imgPos{
         padding-left: 10%;
-    
         grid-area: 3 / 2 / 4 / 4;
     }
 
     .infoImg{
         width: 200px;
         height: 300px;
-
     }
 
     .kontaktText{
@@ -792,17 +751,15 @@ footer {
         font-size: 1.3rem;
         width: 90%;
     }
-
-
 }
 
 @media (max-width: 858px){
+    
     .buttonstyle{
         font-size: 25px;
         border-radius: 25px;
         padding: 10px;
         font-family: Lucida Handwriting, cursive;
-        
     }
 
     .footerDiz{
@@ -816,22 +773,20 @@ footer {
     .kontakt{
         font-size: 1.7rem;
     }
-
 }
 
 @media (max-width: 714px){
+    
     .gallery{
         width: 350px;
         border-radius: 30px;
     }
-
-
+    
     .buttonstyle{
         font-size: 23px;
         border-radius: 25px;
         padding: 10px;
         font-family: Lucida Handwriting, cursive;
-        
     }
 
     .footerDiz{
@@ -859,10 +814,10 @@ footer {
         width: 200px;
         height: 150px;
     }
-
 }
 
 @media (max-width: 646px){
+    
     .gallery{
         width: 350px;
         border-radius: 30px;
@@ -906,17 +861,17 @@ footer {
         padding-bottom: 5px;
         font-weight: bold;
     }
-
 }
 
 @media (max-width: 640px){
+    
     .buttonstyle{
         font-size: 20px;
     }
-
 }
 
 @media (max-width: 566px){
+    
     .buttonstyle{
         font-size: 16px;
     }
@@ -934,10 +889,10 @@ footer {
     .headertextEN{
         font-size: 0.6rem;
     }
-
 }
 
 @media (max-width: 456px){
+    
     .buttonstyle{
         font-size: 18px;
     }
@@ -949,7 +904,6 @@ footer {
     .gallery .popup-img img{
         width: 300px;
         height: 350px;
-
     }
 
     .kontaktTextO{
